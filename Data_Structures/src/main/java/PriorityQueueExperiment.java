@@ -63,6 +63,7 @@ public class PriorityQueueExperiment {
         q.add(new ReportCard(91, 95, 92));
         q.add(new ReportCard(91, 95, 99));
         q.add(new ReportCard(89, 83, 82));
+        System.out.println(q.peek());
         while(!q.isEmpty()) {
             System.out.println(q.poll());
         }
